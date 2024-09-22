@@ -9,7 +9,7 @@ import 'configs/core_theme.dart' as theme;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  setPathUrlStrategy();
+  setPathUrlStrategy(); // mute web url # sign
   runApp(const MyApp());
 }
 
